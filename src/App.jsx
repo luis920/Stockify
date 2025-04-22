@@ -1,11 +1,11 @@
 import "./App.css";
 import { AuthContextProvider } from "./context/AuthContext";
-
+import { MyRoutes } from "./routes/routes";
 function App() {
   return (
     <>
       <AuthContextProvider>
-        <span>Hola Mundo</span>
+        <MyRoutes />
       </AuthContextProvider>
     </>
   );
